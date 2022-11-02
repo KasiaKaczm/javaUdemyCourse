@@ -6,9 +6,9 @@ public class Calculator {
 
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
-        System.out.println("Proszę podaj pierwwszą liczbę");
+        System.out.println("Prosze podaj pierwwsza liczbe");
         int firstNumber = scanner.nextInt();
-        System.out.println("Proszę podaj drugą liczbę");
+        System.out.println("Prosze podaj druga liczbe");
         int secondNumber = scanner.nextInt();
 
         int addition = firstNumber + secondNumber;
@@ -16,7 +16,7 @@ public class Calculator {
         int substraction = firstNumber - secondNumber;
         System.out.println("Po odejmowaniu:" + substraction);
         int muliplication = firstNumber * secondNumber;
-        System.out.println("Po mnożeniu:" + muliplication);
+        System.out.println("Po mnozeniu:" + muliplication);
         float division = firstNumber/secondNumber;
         System.out.println("Po dzieleniu:" + division);
         int mod = secondNumber%firstNumber;
