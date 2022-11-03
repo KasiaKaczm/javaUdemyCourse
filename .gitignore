@@ -1,14 +1,4 @@
 /.idea/
 Pulpit.iml
-/out/production/Pulpit/CustomScanner.class
-/out/production/Pulpit/HelloWorld.class
-/out/production/Pulpit/inkrementacjaDekrementacja.class
-/out/production/Pulpit/operatoryMatematyczne.class
-/out/production/Pulpit/TypyObiektowe.class
-/out/production/Pulpit/TypyProste.class
-/out/production/Pulpit/Zmienne.class
-/out/production/Pulpit/Calculator.class
-/out/production/Pulpit/OperatoryPorównania.class
-/out/production/Pulpit/InstrukcjaWarunkowaElseIf.class
-/out/production/Pulpit/InstrukcjaWarunkowaIf.class
-/out/production/Pulpit/OperatoryLogiczne.class
+/out/
+
