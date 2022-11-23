@@ -4,6 +4,8 @@
 public class StudentChecker {
     public static void main(String[] args) {
 
+        String uczelnia = Student.nazwaUczelni;
+         Student.infoUczelnia();
         Student Student1=new Student();
 
         Student1.imie="Katarzyna";
@@ -11,6 +13,8 @@ public class StudentChecker {
         Student1.nick="KatKaczm";
         Student1.email="kasiak123@gmail.com";
         Student1.numerIndeksu=12345;
+        String uczelniaStudenta1= Student1.nazwaUczelni;
+        Student1.infoUczelnia();
 
         Student1.przedstawSie();
         Student1.podajEmail();

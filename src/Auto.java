@@ -6,6 +6,14 @@ public class Auto {
     public Integer przebieg;
     public String wlasciciel;
 
+
+    public Auto(String marka, String model, int rok, int przebieg) {
+    this.marka=marka;
+    this.model=model;
+    this.rok=rok;
+    this.przebieg=przebieg;
+    }
+
     public void jedz() {
         System.out.println("Jedz!");
     }
