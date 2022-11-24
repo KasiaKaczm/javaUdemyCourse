@@ -21,4 +21,4 @@ public class ReadOlny {
         this.name = name;
     }
 }
-}
+
