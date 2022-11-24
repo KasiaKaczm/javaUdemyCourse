@@ -1,3 +1,5 @@
+package pages;
+
 import java.util.Scanner;
 
 /*zapytaj użytkownika o wiek.
