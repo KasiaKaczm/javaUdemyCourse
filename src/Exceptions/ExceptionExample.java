@@ -1,3 +1,5 @@
+package Exceptions;
+
 import drivers.ChromeDriver;
 import drivers.FirefoxDriver;
 import drivers.WebDriver;

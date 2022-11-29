@@ -21,13 +21,17 @@ public class WebDriverTest {
         chrome.findElementBy();*/
     }
 
-    private static WebDriver getDriver(String name) throws NoValidBrowserName {
+    private static WebDriver getDriver(String name)  {
         if(name.equals("chrome")){
             return new ChromeDriver();
         } else if (name.equals("firefox")){
             return new FirefoxDriver();
         }
-        throw new NoValidBrowserName("No valid browser name. ");
-
+        try {
+            throw new NoValidBrowserName("No valid brwoser name");
+        } catch (NoValidBrowserName noValidBrowserName) {
+            noValidBrowserName.printStackTrace();
+        }
+        return null;
     }
 }
