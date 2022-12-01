@@ -18,7 +18,7 @@ public class StudentTest {
 
     //(parametr)->System.out.println("I am not a student, My name is " + name);
 
-        Student noStudent= (name,age)-> System.out.println("I will be a doctor")
+        Student noStudent= (name,age)-> System.out.println("I will be a doctor");
         sayHello("Tom", noStudent,21);
     }
 
